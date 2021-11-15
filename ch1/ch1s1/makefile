@@ -10,7 +10,7 @@ ch1s1.o : ch1s1.c
 .PHONY : clean run
 
 clean :
-	rm -f ch1s1.o *~
+	rm -f ch1s1.o *~ output
 
 run :
 	./output
