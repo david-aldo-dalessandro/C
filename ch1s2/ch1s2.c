@@ -10,12 +10,15 @@ int main(){
 
   int i; //increment variable for loop
 
+  //Exercise 1-3 A heading for the table
+  printf("\tFahrenheit To Celsius Conversion Table\n\t---------------------------------------\n\t\t  F\t     C\n\t\t ---\t    ---\n");
+      
   //Let's use a for loop here to acheive the same results
   //we increment by 20 degrees F, until 300 degrees is reached
   for(i = 0; i <= 300; i+=20){
     //we format the output here with a single tab like the book does
-    //but we use a different format here out of preference 
-    printf("%dF  \t%.fC\n", i, (5./9.)*((i)-32) );
+    //but we use a different format here out of preference
+    printf("\t\t%3d\t%6.f\n", i, (5./9.)*((i)-32) );
   }
 
 
